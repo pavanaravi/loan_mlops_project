@@ -50,7 +50,8 @@ interface = gr.Interface(
             gr.Number(label='luxury_assets_value'),
             gr.Number(label='bank_asset_value')],
     outputs= [gr.Textbox(label='Predicted Loan staus')],
-    title='Loan Approval Prediction using Gradio'
+    title='Loan Approval Prediction using Gradio',
+    theme='soft'
     
 ) 
 
